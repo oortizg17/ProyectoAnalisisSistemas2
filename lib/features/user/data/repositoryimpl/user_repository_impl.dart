@@ -1,4 +1,5 @@
-import 'package:ProyectoAnalisis2/features/core/errors/failure.dart';
+
+import 'package:ProyectoAnalisis2/core/errors/failure.dart';
 import 'package:ProyectoAnalisis2/features/user/data/models/usermodel.dart';
 import 'package:ProyectoAnalisis2/features/user/domain/repository/user_repository.dart';
 import 'package:dartz/dartz.dart';
