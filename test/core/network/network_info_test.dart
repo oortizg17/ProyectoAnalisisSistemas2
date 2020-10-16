@@ -14,7 +14,6 @@ void main() {
     mockDataConnectionChecker = MockDataConnectionChecker();
     networkInfo = NetWorkInfoImpl(mockDataConnectionChecker);
   });
-
   group('isConnected', () {
     test('should forward the call to DataconnectionCheccke', () async {
       //arrange
